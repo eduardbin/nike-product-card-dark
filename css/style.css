@@ -1,0 +1,98 @@
+@import url(../fonts/stylesheet.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background: url(../img/background.png) #d0d0d2;
+  background-size: cover;
+  font: 100 14px/1.29 "Museo Sans Rounded", sans-serif;
+  min-height: 100%;
+  color: #9da1a6;
+}
+
+.ba-container {
+  max-width: 686px;
+  max-height: 391px;
+  background-color: #152335;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 8px;
+}
+
+.ba-logo {
+  display: inline-block;
+  padding-top: 24px;
+  margin: 0 22px 14px;
+}
+
+.ba-product-img {
+  display: inline-block;
+  width: 330px;
+  margin: 0 75px 0 35px;
+  padding-top: 50px;
+}
+
+.ba-main {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ba-main__header {
+  font-size: 24px;
+  line-height: 1.08;
+  color: #8c9096;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.ba-main__subscribe {
+  margin-bottom: 17px;
+  line-height: 1.86;
+  color: #5b636d;
+  letter-spacing: 0.3px;
+}
+
+.ba-stars {
+  margin-bottom: 23px;
+}
+
+.ba-stars__img {
+  width: 11px;
+}
+
+.ba-main__form {
+  background-color: #152335;
+  color: #82868d;
+  width: 69px;
+  margin-bottom: 30px;
+  border: 1px solid #5a616d;
+  margin-left: 3px;
+  margin-right: -4px;
+  padding: 6.5px 0;
+}
+
+option {
+  font: 100 14px/1.29 "Museo Sans Rounded", sans-serif;
+}
+
+.ba-button {
+  display: block;
+  width: 184px;
+  background-color: #2a3545;
+  color: #9b9fa4;
+  font: 100 14px/1.29 "Museo Sans Rounded", sans-serif;
+  border: 1px solid #575e6a;
+  padding: 10px 55px;
+  margin-left: 3px;
+}
